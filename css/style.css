@@ -1,0 +1,33 @@
+
+body
+	{
+		background-color: #EDBB99
+
+    }
+
+a:link, a:visited
+{
+	color:#FA8072;
+	background-color: white;
+	text-decoration: none;
+	padding: 16px;
+	text-align: center;
+	display: inline-block;
+    font-family: verdana;
+}
+
+
+
+a:hover
+{
+	color:white;
+	background-color: #CD5C5C;
+	text-decoration: underline;
+}
+
+a:active
+{
+    color: #d5b98a;
+    background-color: #853f3f;
+    text-decoration: underline;
+}

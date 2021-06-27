@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXPERIENCE</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bubblegum+Sans&family=Julius+Sans+One&family=Just+Another+Hand&family=Overlock&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+.mySlides {display:none;}
+</style>
+</head>
+<body style="background-color: #EDBB99;">
+
+<div align="center">
+<h1 style="font-family: 'Bowlby One SC', cursive;color: white;">MY EXPERIENCE</h1>
+
+
+
+<a href="index.html">HOME PAGE</a>
+<a href="BIODATAS.html">BIODATA</a>  
+<a href="FAMILY.html">FAMILY</a>
+<a href="EDUCATION.html">EDUCATION</a>
+<a href="EXPERIENCE.html ">EXPERIENCE</a>
+<a href="GALLERY.html">GALLERY</a>
+<a href="QUOTE.html">QUOTE</a>	
+
+<div class="w3-container">
+  <div class="w3-panel w3-border w3-border-blue-gray w3-hover-border-pink">
+    
+  <h3 style="font-family: 'Bubblegum Sans', cursive;color: white;">These are my experience in my diploma journey</h3>
+  <h4 style="font-family: 'Pangolin', cursive;color: white;">I was one of the member in D'Banquers Club at UiTM Machang. I got many experiences in this club</h4>
+</div>
+</div>
+
+<div class="w3-container">
+ 
+  <h4 style="font-family: 'Pangolin', cursive;color: gray;"><span class="w3-badge w3-brown">1</span>First and foremost, i learned to handle a lot of programmes</h4>
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/program.jpg" style="width:100%">
+  <img class="mySlides" src="images/program1.jpg" style="width:100%">
+  <img class="mySlides" src="images/program2.jpg" style="width:100%">
+  </div>
+
+  <h4 style="font-family: 'Pangolin', cursive;color: gray;"><span class="w3-badge w3-khaki">2</span>Secondly, I got to know and help society</h4>
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/help.jpg" style="width:100%">
+  <img class="mySlides" src="images/help2.jpg" style="width:100%">
+  <img class="mySlides" src="images/help3.jpg" style="width:100%">
+  </div>
+
+  <h4 style="font-family: 'Pangolin', cursive;color: gray;"><span class="w3-badge w3-sand">3</span>Thirdly, I got to see social influencer and celebrity.</h4>
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/c.jpg" style="width:100%">
+  <img class="mySlides" src="images/c2.jpg" style="width:100%">
+  <img class="mySlides" src="images/c4.jpg" style="width:100%">
+  </div>
+
+  <h4 style="font-family: 'Pangolin', cursive;color:  gray;"><span class="w3-badge w3-red">4</span>Lastly, the best part was my club member is my family.</h4>
+  <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/guys.jpg" style="width:100%">
+  <img class="mySlides" src="images/guys2.jpg" style="width:100%">
+  </div>
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+  
+</div>
+</div>
+</body>
+</html>
